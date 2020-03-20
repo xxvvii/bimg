@@ -1,6 +1,6 @@
 /*
- * Copyright 2011-2019 Branimir Karadzic. All rights reserved.
- * License: https://github.com/bkaradzic/bgfx#license-bsd-2-clause
+ * Copyright 2011-2020 Branimir Karadzic. All rights reserved.
+ * License: https://github.com/bkaradzic/bimg#license-bsd-2-clause
  */
 
 #ifndef BIMG_CONFIG_H_HEADER_GUARD
@@ -43,6 +43,10 @@
 #ifndef BIMG_DECODE_ATC
 #	define BIMG_DECODE_ATC BIMG_DECODE_ENABLE
 #endif // BIMG_DECODE_ATC
+
+#ifndef BIMG_DECODE_ASTC
+#	define BIMG_DECODE_ASTC BIMG_DECODE_ENABLE
+#endif // BIMG_DECODE_ASTC
 
 #ifndef BIMG_DECODE_ETC1
 #	define BIMG_DECODE_ETC1 BIMG_DECODE_ENABLE
